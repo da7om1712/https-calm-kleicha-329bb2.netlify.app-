@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RELAX - اختبار تحليل الشخصية</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="combined_script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>RELAX</h1>
+        <p>اختبار تحليل الشخصية</p>
+
+        <div class="input-group">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" placeholder="ادخل اسمك">
+        </div>
+
+        <div class="input-group">
+            <label for="gender">الجنس:</label>
+            <select id="gender">
+                <option value="male">ذكر</option>
+                <option value="female">أنثى</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="zodiac">البرج:</label>
+            <select id="zodiac">
+                <option value="aries">الحمل</option>
+                <option value="taurus">الثور</option>
+                <option value="gemini">الجمناي</option>
+                <option value="cancer">السرطان</option>
+                <option value="leo">الأسد</option>
+                <option value="virgo">العذراء</option>
+                <option value="libra">الميزان</option>
+                <option value="scorpio">العقرب</option>
+                <option value="sagittarius">القوس</option>
+                <option value="capricorn">الجدي</option>
+                <option value="aquarius">الدلو</option>
+                <option value="pisces">الحوت</option>
+            </select>
+        </div>
+
+        <button id="start-btn">ابدأ الاختبار</button>
+
+        <div id="question-container" class="hidden">
+            <!-- Questions will be populated here by the script -->
+        </div>
+
+        <div id="analysis-container" class="hidden">
+            <!-- Analysis and resources will be populated here by the script -->
+        </div>
+    </div>
+</body>
+</html>
